@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sanity-start": "cd ./studio && npx @sanity/cli start",
+    "sanity-manage": "cd ./studio && npx @sanity/cli manage"
   },
   "dependencies": {
     "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.10.5"
   }
 }

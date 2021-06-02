@@ -2,6 +2,8 @@
 
 Original [code](https://github.com/sanity-io/next-recipe-app)
 
+Sanity CLI was installed with -D flag, so use `npx @sanity/cli command`
+
 ## Getting Started
 
 First, run the development server:
