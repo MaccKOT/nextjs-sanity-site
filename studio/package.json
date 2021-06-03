@@ -7,8 +7,8 @@
   "author": "Vitalij <dreamingdolphing@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build"
+    "start": "npx @sanity/cli start",
+    "build": "npx @sanity/cli build"
   },
   "keywords": [
     "sanity"
